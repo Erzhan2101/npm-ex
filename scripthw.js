@@ -75,12 +75,12 @@
 
 // // 7. Округлить число до двух знаков после запятой
 
-const round = function (number) {
-    const roundedNum = toFixed(number)
-    return number
-}
-
-console.log(round(10.12345))  // 10.12
+// const round = function (number) {
+//     const roundedNum = toFixed(number)
+//     return number
+// }
+//
+// console.log(round(10.12345))  // 10.12
 
 
 
@@ -138,3 +138,7 @@ console.log(round(10.12345))  // 10.12
 // console.log(createObj('Ivan Ivanov'))  // { name: 'Ivan', lastName: 'Ivanov' }
 
 
+import {sayGreeting} from "./script.js";
+
+console.log(sayGreeting("ru"))
+// console.log(sayGreeting("kg"))"type": "module"
